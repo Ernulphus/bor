@@ -1,0 +1,128 @@
+.App {
+  text-align: center;
+  background-color: #2a2e36;
+  color: white;
+  height: 100vh;
+}
+
+.App-logo {
+  height: 30vh;
+  margin-top: 2vh;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin 2s;
+    animation-timing-function: ease;
+    background-color: #61dafb;
+    padding: 2vh;
+  }
+}
+
+/* Logo spins once when page visited */
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.App-header {
+  background-color: #3a3e46;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(15px + 2vmin);
+  color: white;
+}
+
+.App-header a {
+  color: #61dafb;
+  padding: 30px;
+}
+
+.App-header img{
+  width: 5%
+}
+
+/* Make balance display more fun */
+.balance {
+  background-color: white;
+  border-radius: 50px;
+  color: #2a2e36;
+  position: fixed; /*Keeps the balance at bottom of the page*/
+  left: 30vw;
+  bottom: 0;
+  width: 40vw;
+  border: dashed;
+  border-color: #61dafb;
+}
+
+h1 {
+  margin-bottom: 4vh;
+}
+
+.Home-links {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+}
+
+.Home-links a {
+  border-radius: 50px;
+  background: white;
+  padding: 10px;
+}
+
+.Home-links div {
+  margin-left: 2vh;
+  margin-right: 2vh;
+}
+
+/* Styling login submission and entry input fields */
+.field {
+  margin-top: 1vh
+}
+
+.field input {
+  margin: 0.5vh;
+}
+
+/* Make links look nice */
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: black;
+  background-color: #61dafb;
+}
+
+.credits-debits {
+  width: 50vw;
+  left: 25vw;
+  position: relative;
+}
+
+.credits-debits ul {
+  display: inline-block;
+  text-align: left;
+}
+
+.credits-debits li {
+  margin: 1vh;
+}
+
+
+
+
+
+
+
+
+/**/
